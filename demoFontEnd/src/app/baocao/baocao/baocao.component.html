@@ -1,0 +1,27 @@
+<blockquote class="blockquote ml-5">
+    <h1>Thống Kê Danh Sách Tỉnh-Thành Phố</h1>
+</blockquote>
+<nz-table #nzTable [nzData]="thanhphoList" #table nzTableLayout="fixed">
+    <thead>
+      <tr>
+        <th nzCustomFilter>
+          Danh Sách Thành Phố
+        </th>
+         <th>Danh Sách Quận</th> 
+         <th>Danh Sách Xã Phường</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of table.data">
+        
+        <td>{{ data.tenTp }}</td>
+        <td>{{ data.tenQuanHuyen}}</td>
+        <td>{{data.tenXaPhuong}}</td>
+      </tr>
+    </tbody>
+  </nz-table>
+  <nz-dropdown-menu #menu="nzDropdownMenu">
+    <div class="ant-table-filter-dropdown">
+      
+    </div>
+  </nz-dropdown-menu>

@@ -1,0 +1,58 @@
+.main-menu{
+    margin-bottom:2px;
+    margin-top:30px;
+    background-color:#fff; 
+    
+}
+.main-menu li{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.main-menu li a{
+    color: red;
+}
+ .wrapper {
+    width: 240px;
+  }
+
+  .button {
+    margin-bottom: 12px;
+  } 
+  
+  :host {
+    text-align: center;
+  }
+
+  nz-header,
+  nz-footer {
+    background: #7dbcea;
+    color: #fff;
+  }
+
+  nz-footer {
+    line-height: 1.5;
+  }
+
+  nz-sider {
+    
+    background: #3ba0e9;
+    color: #fff;
+    line-height: 120px;
+  }
+
+  nz-content {
+    background: rgba(16, 142, 233, 1);
+    color: #fff;
+    min-height: 120px;
+    line-height: 120px;
+  }
+
+  nz-layout {
+    margin-bottom: 48px;
+  }
+
+  nz-layout:last-child {
+    margin: 0;
+  }
